@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #080808; /* Background utama */
+    color: #00ffee; /* Warna teks utama */
+}
+
+header {
+    background: #131313; /* Background header */
+    color: #00ffee; /* Warna teks header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #00ffee; /* Warna link header */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #131313; /* Background section */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #00ffee; /* Warna teks heading */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #00ffee; /* Border tabel */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #00ffee; /* Warna teks tabel */
+}
+
+th {
+    background-color: #080808; /* Background header tabel */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+audio {
+    display: block;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #131313; /* Background footer */
+    color: #00ffee; /* Warna teks footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

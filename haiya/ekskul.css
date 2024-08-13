@@ -1,0 +1,128 @@
+body {
+    background-color: #080808;
+    color: #00ffee;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #080808;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.logo {
+    width: 50px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+header {
+    background-color: #080808;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 75px; 
+    height: auto; 
+    margin-right: 15px; 
+}
+
+form {
+    background-color: #131313;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 255, 238, 0.5);
+}
+
+fieldset {
+    border: 1px solid #00ffee;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #00ffee;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+input[type="url"],
+input[type="file"],
+input[type="color"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="search"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #080808;
+    color: #00ffee;
+    border: 1px solid #00ffee;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: #00ffee;
+    color: #080808;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #00ddcc;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #131313;
+    color: #00ffee;
+    position: relative;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
